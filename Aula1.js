@@ -29,13 +29,28 @@
 // ===   → é exatamente igual?
 // { }  → o que faço se a resposta for TRUE?
 
-let tentativasLogin = 10;
+// let tentativasLogin = 10;
 
-    if(tentativasLogin >= 3){
-        console.log('Utilizador bloqueado')
+//     if(tentativasLogin >= 3){
+//         console.log('Utilizador bloqueado')
 
-    }else{
-        console.log('Pode tentar novamente')
-    }
+//     }else{
+//         console.log('Pode tentar novamente')
+//     }
+
+const nomeCliente = 'Maria';
+
+let saldo = 500;
+let valorCompra = 700;
+let contaAtiva = true;
+
+ if(valorCompra <= saldo){
+
+    console.log(nomeCliente + 'Compra autorizada')
+ 
+}else{
+
+    console.log(nomeCliente + 'Saldo insuficiente')
+}
         
     
